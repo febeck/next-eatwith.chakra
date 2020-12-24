@@ -24,7 +24,17 @@ export function HeroSection() {
           maxW={{ base: '80%', md: '50%', lg: '70%' }}
           mx={{ base: 0, lg: 'auto' }}
         >
-          <Heading as='h1' size='3xl' color='yellow.100' marginX='auto' marginBottom={4}>
+          <Heading
+            as='h1'
+            size='3xl'
+            color='yellow.100'
+            marginX='auto'
+            marginBottom={4}
+            _after={{
+              content: '"."',
+              color: 'brand.500',
+            }}
+          >
             Explore the world with online experiences
           </Heading>
           <Heading as='h2' size='lg' color='yellow.50' mx='auto'>
