@@ -1,3 +1,4 @@
+import * as React from 'react'
 import Head from 'next/head'
 
 export default function Home() {
@@ -5,16 +6,12 @@ export default function Home() {
     <div>
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main>
-        
-      </main>
+      <main>alskdn</main>
 
-      <footer>
-        
-      </footer>
+      <footer />
     </div>
   )
 }
