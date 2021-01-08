@@ -1,6 +1,6 @@
 export const Container = {
   baseStyle: {
-    maxWidth: '100ch',
+    maxWidth: '120ch',
   },
   sizes: {},
   variants: {},

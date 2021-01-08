@@ -13,7 +13,7 @@ export function Section({ children, ...props }) {
 function Header({ children, ...props }) {
   if (!children) return null
   return (
-    <Heading size='lg' {...props}>
+    <Heading mb={4} size='lg' {...props}>
       {children}
     </Heading>
   )
